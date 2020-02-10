@@ -1,6 +1,6 @@
-name: 'Pull Request Action'
+name: 'Pull Request Action on New/Update Branch'
 description: 'A GitHub action to open a pull request on new/update of branch'
-author: 'vsoch'
+author: 'jascodes'
 runs:
   using: 'docker'
   image: 'Dockerfile'
