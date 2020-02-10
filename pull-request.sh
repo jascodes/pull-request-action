@@ -132,7 +132,7 @@ main () {
             # Pull request title (optional)
             if [ -z "${PULL_REQUEST_TITLE}" ]; then
                 echo "No pull request title is set, will use default."
-                PULL_REQUEST_TITLE="Update container ${BRANCH}"
+                PULL_REQUEST_TITLE="${BRANCH}"
             fi
             echo "Pull request title is ${PULL_REQUEST_TITLE}"
 
