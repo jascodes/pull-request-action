@@ -1,5 +1,5 @@
 name: 'Pull Request Action'
-description: 'A GitHub action to open a pull request'
+description: 'A GitHub action to open a pull request on new/update of branch'
 author: 'vsoch'
 runs:
   using: 'docker'
