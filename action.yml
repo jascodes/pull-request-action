@@ -1,4 +1,4 @@
-name: 'Pull Request Action on New/Update Branch'
+name: 'Pull Request for New Branch Action'
 description: 'A GitHub action to open a pull request on new/update of branch'
 author: 'jascodes'
 runs:
